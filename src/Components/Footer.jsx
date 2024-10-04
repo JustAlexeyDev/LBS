@@ -23,7 +23,7 @@ const Footer = () => {
       </Link>
 
       <Link
-        to="/"
+        to="/AlarmClock"
         className={`Footer--Container__button ${isActive("Будильник") ? "active" : ""}`}
         onClick={() => handleButtonClick("Будильник")}
       >
@@ -32,7 +32,7 @@ const Footer = () => {
       </Link>
 
       <Link
-        to="/"
+        to="/Rate"
         className={`Footer--Container__button ${isActive("Рейтинг") ? "active" : ""}`}
         onClick={() => handleButtonClick("Рейтинг")}
       >
@@ -41,7 +41,7 @@ const Footer = () => {
       </Link>
 
       <Link
-        to="/"
+        to="/Settings"
         className={`Footer--Container__button ${isActive("Настройки") ? "active" : ""}`}
         onClick={() => handleButtonClick("Настройки")}
       >
