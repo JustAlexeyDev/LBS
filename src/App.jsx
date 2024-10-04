@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import { Route, Routes } from "react-router";
 
 import NotFound from "./Pages/NotFound";
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/Notifications" element={<Notifications />}/>
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
