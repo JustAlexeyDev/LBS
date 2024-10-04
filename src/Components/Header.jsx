@@ -14,6 +14,12 @@ const Header = () => {
       setPageName("Профиль");
     } else if (path === "/Notifications") {
       setPageName("Уведомления");
+    } else if (path === "/AlarmClock") {
+      setPageName("Будильник");
+    } else if (path === "/Settings") {
+      setPageName("Настройки");
+    } else if (path === "/Rate") {
+      setPageName("Рейтинг");
     }
   }, [location.pathname]);
 
