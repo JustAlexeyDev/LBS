@@ -65,3 +65,20 @@ body {
 .Footer--Container__button.active {
   background-color: var(--accent--color); 
 }
+
+.Search--Container {
+  display: flex;
+  width: 100%;
+}
+.Search--Container input {
+  padding: 8px;
+  border: 1px solid;
+  width: 90%;
+  border-radius: 12px 0px 0px 12px;
+}
+.Search--Container button {
+  padding: 8px;
+  border: 1px solid;
+  width: 10%;
+  border-radius: 0px 12px 12px 0px;
+}
