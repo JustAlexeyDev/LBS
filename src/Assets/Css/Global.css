@@ -1,0 +1,21 @@
+body {
+  background-color: #ffffff;
+  color: #1d1d1d;
+}
+
+.Header--Container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  justify-content:space-between;
+  background-color: rgba(66, 66, 66, 0.558);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+}
+.kinich {
+  background-color: chartreuse;
+  width: auto;
+  height: 60px;
+}
