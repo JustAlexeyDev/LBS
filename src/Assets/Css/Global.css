@@ -25,3 +25,21 @@ body {
   margin-top: 60px;
   padding: 16px;
 }
+.Footer--Container {
+  display: flex;
+  padding: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(66, 66, 66, 0.558);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  color: #fff;
+  justify-content: space-between;
+}
+.Footer--Container__button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
